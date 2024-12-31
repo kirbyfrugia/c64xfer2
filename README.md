@@ -26,8 +26,13 @@ Here's what I used:
 3. An OLED display for the arduino
 4. A breakout board for the c64 user port. I used [this one](https://www.ebay.nl/itm/175454004721).
 5. A serial cable for the PC. I used a USB to serial cable.
+6. RS232 to TTL MAX3232 adapter
 
 For the wiring information, see the [arduino broker source](./arduino-broker/arduino-broker.ino)
+
+![breadboard](./images/breadboard.jpg)
+![breakout board](./images/breakoutboard.jpg)
+![rs232](./images/rs232.jpg)
 
 # How to send a file
 How to send from a PC to the c64:
