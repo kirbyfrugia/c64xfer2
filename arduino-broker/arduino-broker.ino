@@ -2,6 +2,20 @@
 #include <SoftwareSerial.h>
 #include "ssd1306.h"
 
+// Wiring (c64 to Arduino)
+// C64 User Port - Arduino Pin
+// A - GND
+// B - D4
+// C - D5
+// D - D6
+// E - D7
+// F - D8
+// H - D9
+// J - D10
+// K - D11
+// L - D12
+// M - D3
+// 8 - D2
 const char DATA_PINS[] = {12, 11, 10, 9, 8, 7, 6, 5};
 #define PACKET_FULL_SIZE              130
 #define PACKET_DATA_SIZE              128
